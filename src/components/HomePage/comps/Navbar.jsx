@@ -8,11 +8,14 @@ const Navbar =()=>{
         <>
         <div className="nav">
         <div className="logo">
-        GitCommiteers
+        <Link to="/" style={{textDecoration:"none", color:"#615AE1"}}>
+        COVID-HelpView
+        </Link>
+        
         </div>
         <div className="contents">
             <div className="items">
-            <Link to="chat">
+            <Link to="chat" style={{textDecoration:"none"}}>
             Chat
             </Link>
             
