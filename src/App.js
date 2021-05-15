@@ -1,5 +1,4 @@
-import {BrowserRouter as Router , Switch, Route} from "react-router-dom";
-import {Link} from "react-router-dom"
+import {Link,BrowserRouter as Router , Switch, Route} from "react-router-dom";
 import BedAvailability from "./components/BedAvailability/BedAvailability"
 import HomePage from "./components/HomePage/HomePage"
 import ChatRoom  from './components/Chatroom/ChatRoom';
