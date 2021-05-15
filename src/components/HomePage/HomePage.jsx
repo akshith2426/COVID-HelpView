@@ -1,9 +1,22 @@
 import React from "react"
-
+import "./HomePage.css"
+import Landing from "./comps/Landing"
+import Navbar from "./comps/Navbar"
+import Features from "./comps/Features"
+import Team from "./comps/Team"
+import Stats from "./comps/Stats"
 const HomePage=() => {
 return(
-    <>
-    <div>This the hompage of our website. This may contain nested elements whenever needed</div>
+    < >
+    <div className="container">
+    <Navbar />
+   <Landing />
+   </div>
+   <Stats/>
+   <Features />
+   {/* <Team/> */}
+    
+  
     </>
 )
 } 
