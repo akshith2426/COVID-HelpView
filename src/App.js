@@ -2,28 +2,32 @@ import {Link,BrowserRouter as Router , Switch, Route} from "react-router-dom";
 import BedAvailability from "./components/BedAvailability/BedAvailability"
 import HomePage from "./components/HomePage/HomePage"
 import ChatRoom  from './components/Chatroom/ChatRoom';
+import "./index.css"
 
 function App() {
   return (
     <Router>
     <Switch>
+    <div className="body">
+
+   
 
 
     <Route exact path="/">
       <div className="homePage">
       <HomePage/>
       <br/>
-      <Link to="/beds">
+      {/* <Link to="/beds">
         This is to go to beds page
-      </Link>
+      </Link> */}
       <br/>
-      <Link to="/chat">
+      {/* <Link to="/chat">
         This is to go to chatroom page
-      </Link>
+      </Link> */}
       </div>
     </Route>
 
-    <Route exact path="/beds">
+    {/* <Route exact path="/beds">
     <div className="BedAvailability_page">
     <BedAvailability/>
     <br/>
@@ -35,7 +39,7 @@ function App() {
         This is to go to chat page
       </Link>
     </div>
-    </Route>
+    </Route> */}
 
    
     
@@ -43,17 +47,17 @@ function App() {
       <div className="Chatroom">
         <ChatRoom/>
         <br/>
-      <Link to ="/">
+      {/* <Link to ="/">
         To go to home page
       </Link>
       <br/>
       <Link to ="/beds">
         to go to beds page
-      </Link>
+      </Link> */}
       </div>
     </Route>
     
-
+    </div>
     </Switch>
 
    
