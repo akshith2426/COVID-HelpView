@@ -51,7 +51,7 @@ const ChatFeed = (props) => {
 	};
 	if (!chat) return 'Loading...';
 	return (
-		<div className="chat-feed">
+		<div className="chat-feed" style={{backgroundColor:"#F1F5FF"}}>
 			<div className="chat-title-container">
 				<div className="chat-title">{chat.title}</div>
 				<div className="chat-subtitle">{chat.people.map((person) => ` ${person.person.username}`)}</div>

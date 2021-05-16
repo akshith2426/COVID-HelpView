@@ -7,9 +7,11 @@ import "./index.css"
 function App() {
   return (
     <Router>
-    <Switch>
+    
     <div className="body">
+    <Switch>
 
+   
    
 
 
@@ -56,9 +58,11 @@ function App() {
       </Link> */}
       </div>
     </Route>
+
     
-    </div>
     </Switch>
+    </div>
+    
 
    
     </Router>

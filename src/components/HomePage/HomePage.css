@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "DM Sans";
     
+
 }
 .container{
     display: flex;
@@ -84,7 +85,9 @@
     height: 100vh;
     width: 100%;
 }
-.title{
+
+.titles{
+
     font-family: "Poppins";
     font-size: 4rem;
     font-weight:800;
@@ -174,15 +177,160 @@
     margin-top: 40px;
     justify-content: space-evenly;
 }
+
+.img{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.inner-title{
+    font-size: xx-large;
+    font-weight: 800;
+    color: #615AE1;
+}
+
 .cards-details{
     width: 30%;
     border-radius: 10px;
     background-color: white;
     
-    height: 25vh;
+
+    /* height: 25vh; */
     
 }
-@media(max-width:767px){
+.card-content,.cards-content{
+    text-align: center;
+}
+.banner{
+    height: 50vh;
+    background-color: #615AE1;
+    text-align: center;
+}
+.banner-title{
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: "Poppins";
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+.banner-meta{
+    color: white;
+    font-family: "DM Sans";
+    font-size: medium;
+
+}
+.banner-search{
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    font-size: x-large;
+    margin-top: 40px;
+}
+.banner-btn{
+    background-color: #7DC0F8;
+    color: white;
+    width: 10%;
+    border: none;
+    font-size: x-large;
+    padding: 20px;
+    border-radius: 0 10px 10px 0;
+
+}
+.banner-btn:hover{
+    background-color: #203E92;
+}
+.h-card{
+    position: relative;
+    top: -50px;
+    background-color: white;
+    width: 30%;
+    border-radius: 15px;
+    /* margin-left: 20px; */
+    padding: 20px;
+
+}
+.update{
+    display: flex;
+    flex-direction: row;
+    
+}
+.u-details{
+    margin-right:5px;
+    color: #615AE1;
+}
+.tags{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+}
+.h-title{
+    font-size: xx-large;
+    font-weight: 800;
+    color: #615AE1;
+}
+.district, .phone{
+    background-color: #7DC0F8;
+    color: white;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-right:5px ;
+
+}
+.phone{
+    display: flex;
+    flex-direction: row;
+}
+.phone-no{
+    margin-left:5px
+}
+.without-oxy,.with-data{
+    text-align: center;
+    
+    
+}
+
+.data-row{
+    display: flex;
+    flex-direction: row;
+    margin-top:40px ;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right:10px;
+}
+.data-title{
+    font-size: large;
+    color: #203E92;
+}
+/* .w-cards{
+    width: 50%;
+} */
+.h-card{
+    
+    margin-bottom: 20px;
+}
+.hospital-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.total-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.load{
+    width: 33%;
+    margin-left: 33%;
+    text-align: center;
+    border-radius: 10px;
+}
+@media(max-width:768px){
+
     .landing{
         flex-direction: column;
         height: auto;
@@ -197,4 +345,17 @@
     .details{
         margin-top: 20px;
     }
+
+    .h-card{
+        width: 80%;
+    }
+    .banner-search{
+        width: 60%;
+    }
+    .banner-btn{
+        width: 25%;
+        
+        
+    }
+
 }

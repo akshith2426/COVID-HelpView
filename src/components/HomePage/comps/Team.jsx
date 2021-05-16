@@ -1,5 +1,7 @@
 import React from "react"
 
+import "../HomePage.css"
+
 const Team =()=>{
     return(
         <>

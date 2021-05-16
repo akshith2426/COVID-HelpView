@@ -1,40 +1,45 @@
 /* CHAT STYLES */
 * {
-	font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
-		sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-	letter-spacing: 0.5px;
+	font-family: 'DM Sans', sans-serif;
 }
 
 .ce-chat-list {
 	background-color: rgb(240, 240, 240) !important;
+	overflow: hidden !important;
 }
 
 .ce-chats-container {
-	background-color: rgb(240, 240, 240) !important;
+	background-color: #f1f5ff !important;
+	border-right: 3px solid #d5d2ff !important;
+	padding-right: 2px;
 }
 
 .ce-active-chat-card {
-	background-color: #cabcdc !important;
-	border: 4px solid #cabcdc !important;
-	border-radius: 0px !important;
+	border: 4px solid #615ae1 !important;
+	border-radius: 5px !important;
+	background-color: #ffffff !important;
 }
-
+.ce-chat-title-text {
+	color: #615ae1 !important;
+}
 .ce-chat-subtitle-text {
-	color: #595959 !important;
+	color: #a3a3a3 !important;
 }
 
 .ce-chat-form-container {
 	padding-bottom: 20px !important;
+	background-color: #f1f5ff !important;
 }
 
 .ce-text-input {
 	border-radius: 6px !important;
-	border: 1px solid #3b2a50 !important;
+	color: #615ae1 !important;
+	background-color: #f1f5ff !important;
+	cursor: pointer !important;
 }
 
 .ce-primary-button {
 	border-radius: 6px !important;
-	background-color: #7554a0 !important;
 	position: relative;
 	bottom: 1px;
 }
@@ -45,26 +50,30 @@
 }
 
 .ce-settings {
-	background-color: rgb(240, 240, 240) !important;
+	background-color: #f1f5ff !important;
+	overflow: hidden !important;
 }
 
 .ce-autocomplete-input {
 	border-radius: 6px !important;
-	border: 1px solid #3b2a50 !important;
+	border: 1px solid white !important;
+}
+.ce-autocomplete-input::placeholder {
+	color: #615ae1;
 }
 
 .ce-autocomplete-options {
+	margin-top: 2% !important;
 	border-radius: 6px !important;
-	border: 1px solid #3b2a50 !important;
+	border: 2px solid #615ae1 !important;
 	background-color: white !important;
-}
-
-.ce-chat-settings-container {
-	padding-top: 12px !important;
 }
 
 .ce-chat-avatars-row {
 	display: none !important;
+}
+.ce-add-username-input {
+	border: 1px solid white !important;
 }
 
 /* CUSTOM FEED */
@@ -72,8 +81,17 @@
 .chat-feed {
 	height: 100%;
 	width: 100%;
-	overflow: scroll;
-	background-color: rgb(240, 240, 240);
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background-color: #f1f5ff;
+	border-right: 2px solid #d5d2ff !important;
+}
+.chat-feed::-webkit-scrollbar {
+	width: 10px;
+}
+.chat-feed::-webkit-scrollbar-thumb {
+	background-color: #615ae1;
+	border-radius: 6px;
 }
 
 .chat-title-container {
@@ -83,13 +101,13 @@
 }
 
 .chat-title {
-	color: #7554a0;
+	color: #615ae1;
 	font-weight: 800;
 	font-size: 24px;
 }
 
 .chat-subtitle {
-	color: #7554a0;
+	color: #6810db;
 	font-weight: 600;
 	font-size: 12px;
 	padding-top: 4px;
@@ -155,15 +173,15 @@
 .message-form-container {
 	position: absolute;
 	bottom: 0px;
-	width: calc(100% - 36px);
+	width: 100%;
 	padding: 18px;
-	background-color: rgb(240, 240, 240);
+	background-color: #f1f5ff;
+	border-right: 2px solid #d5d2ff !important;
 }
 
 .message-form {
 	overflow: hidden;
 	border-radius: 6px;
-	border: 1px solid #3b2a50;
 	background-color: white;
 }
 
@@ -175,6 +193,9 @@
 	padding: 0px 18px;
 	outline: none;
 	font-size: 15px;
+}
+.message-input::placeholder {
+	color: #615ae1;
 }
 
 .image-button {
@@ -201,6 +222,9 @@
 	top: 1px;
 	position: relative;
 	font-size: 14px;
+}
+.anticon {
+	color: #615ae1;
 }
 
 /* FORM STYLES */

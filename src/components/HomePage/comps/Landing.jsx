@@ -1,4 +1,7 @@
 import React from "react"
+
+import "../HomePage.css"
+
 import background from "../../../images/Landing.svg"
 import phone from "../../../images/Phone.svg"
 import {Link} from "react-router-dom"
@@ -7,7 +10,10 @@ const Landing =()=>{
         <>
         <div className="landing" style={{backgroundImage:background}}>
         <div className="main-land">
-           <div className="title details"> Find a Bed</div>
+
+           <div className="titles details"> Find a Bed</div>
+
+          
            <div className="meta details"> lorem ipsum is the most wonderful place in the world
            lorem ipsum is the most wonderful place in the world
            lorem ipsum is the most wonderful place in the world
