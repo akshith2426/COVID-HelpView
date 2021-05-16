@@ -9,20 +9,25 @@ const Navbar =()=>{
         <div className="nav">
         <div className="logo">
 
-        <Link to="/" style={{textDecoration:"none", color:"#615AE1"}}>
+        <Link to="/" style={{textDecoration:"none", color:"#233E8B"}}>
         COVID-HelpView
         </Link>
         
         </div>
         <div className="contents">
             <div className="items">
-            <Link to="chat" style={{textDecoration:"none"}}>
+            <Link to="chat" style={{textDecoration:"none", color:"#233E8B"}}>
 
             Chat
             </Link>
             
             </div>
-            <div className="items">Features</div>
+            <div className="items">
+            <Link to="beds" style={{textDecoration:"none", color:"#233E8B"}}>
+            Bed Availability
+            </Link>
+           
+            </div>
             <div className="items test">Take a test</div>
         </div>
         </div>

@@ -55,7 +55,9 @@ const Features =()=>{
                     </div>
                     <div className="card-content">
                         <div className="inner-title">
-                            Beds
+                        <Link to="beds" style={{textDecoration:"none", color:"#615AE1"}}>
+                             Bed Availability
+                        </Link>
                         </div>
                         <div className="inner-meta">
                             lorem ipsum
