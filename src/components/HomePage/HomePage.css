@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: "DM Sans";
     
-    
+
 }
 .container{
     display: flex;
@@ -85,7 +85,9 @@
     height: 100vh;
     width: 100%;
 }
+
 .titles{
+
     font-family: "Poppins";
     font-size: 4rem;
     font-weight:800;
@@ -175,6 +177,7 @@
     margin-top: 40px;
     justify-content: space-evenly;
 }
+
 .img{
     padding-left: 20px;
     padding-top: 20px;
@@ -184,11 +187,13 @@
     font-weight: 800;
     color: #615AE1;
 }
+
 .cards-details{
     width: 30%;
     border-radius: 10px;
     background-color: white;
     
+
     /* height: 25vh; */
     
 }
@@ -325,6 +330,7 @@
     border-radius: 10px;
 }
 @media(max-width:768px){
+
     .landing{
         flex-direction: column;
         height: auto;
@@ -339,6 +345,7 @@
     .details{
         margin-top: 20px;
     }
+
     .h-card{
         width: 80%;
     }
@@ -350,4 +357,5 @@
         
         
     }
+
 }

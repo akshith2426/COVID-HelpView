@@ -10,6 +10,8 @@ function App() {
     
     <div className="body">
     <Switch>
+
+   
    
 
 
@@ -17,9 +19,9 @@ function App() {
       <div className="homePage">
       <HomePage/>
       <br/>
-      <Link to="/beds">
+      {/* <Link to="/beds">
         This is to go to beds page
-      </Link>
+      </Link> */}
       <br/>
       {/* <Link to="/chat">
         This is to go to chatroom page
@@ -27,7 +29,7 @@ function App() {
       </div>
     </Route>
 
-    <Route exact path="/beds">
+    {/* <Route exact path="/beds">
     <div className="BedAvailability_page">
     <BedAvailability/>
     <br/>
@@ -39,7 +41,7 @@ function App() {
         This is to go to chat page
       </Link>
     </div>
-    </Route>
+    </Route> */}
 
    
     
@@ -56,6 +58,8 @@ function App() {
       </Link> */}
       </div>
     </Route>
+
+    
     </Switch>
     </div>
     

@@ -8,6 +8,7 @@ const Navbar =()=>{
         <>
         <div className="nav">
         <div className="logo">
+
         <Link to="/" style={{textDecoration:"none", color:"#615AE1"}}>
         COVID-HelpView
         </Link>
@@ -16,6 +17,7 @@ const Navbar =()=>{
         <div className="contents">
             <div className="items">
             <Link to="chat" style={{textDecoration:"none"}}>
+
             Chat
             </Link>
             
